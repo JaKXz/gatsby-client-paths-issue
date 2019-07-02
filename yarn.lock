@@ -1099,7 +1099,7 @@
     string-width "^2.0.0"
     strip-ansi "^3"
 
-"@reach/router@^1.1.1":
+"@reach/router@^1.1.1", "@reach/router@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.2.1.tgz#34ae3541a5ac44fa7796e5506a5d7274a162be4e"
   integrity sha512-kTaX08X4g27tzIFQGRukaHmNbtMYDS3LEWIS8+l6OayGIw6Oyo1HIF/JzeuR2FoF9z6oV+x/wJSVSq4v8tcUGQ==
@@ -4946,6 +4946,13 @@ gatsby-page-utils@^0.0.2:
     lodash "^4.17.10"
     micromatch "^3.1.10"
     slash "^1.0.0"
+
+gatsby-plugin-create-client-paths@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-create-client-paths/-/gatsby-plugin-create-client-paths-2.1.1.tgz#d20b68c73268d191d3bcabc3f45bc526e51cd025"
+  integrity sha512-6srKmNrBucWFCC83MU5kCyhPAtuWUINaM5cMk9byERGFqFT02ppNdVqKE2PrridjIdSN6bVe/U+6Pgu95t1exA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
 
 gatsby-plugin-manifest@^2.2.0:
   version "2.2.0"

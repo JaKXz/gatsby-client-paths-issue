@@ -5,6 +5,10 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-create-client-paths`,
+      options: { prefixes: [`/account/*`] }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
